@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Action
         id: run_action
-        uses: releasehub-com/github-action-create-pr-parent-submodule@v1
+        uses: stevenpall/github-action-create-pr-parent-submodule@1.0.0
         with:
           github_token: ${{ secrets.CI_TOKEN }}
           parent_repository: ${{ env.PARENT_REPOSITORY }}
