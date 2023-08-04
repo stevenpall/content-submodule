@@ -14,13 +14,13 @@ on:
 ###############
 jobs:
   build:
-    name: Submodule update
+    name: Submodule Update
     runs-on: ubuntu-latest
     env:
       PARENT_REPOSITORY: 'stevenpall/submodule-demo'
       CHECKOUT_BRANCH: 'main'
       PR_AGAINST_BRANCH: 'main'
-      OWNER: 'org'
+      OWNER: 'stevenpall'
 
     steps:
       ##########################
